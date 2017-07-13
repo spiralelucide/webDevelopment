@@ -1,0 +1,103 @@
+/*
+Version 2
+*/
+
+html {
+	background-color:#444444;
+}
+
+header {
+	font-size: 30px;
+	background-color:#4b4b4b;
+	text-shadow: -2px -2px 6px black;
+	color:white;
+	width: 820px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+    border-style: solid;
+    border-width: thin;
+    
+}
+
+footer {
+	background-color:#1b1b1b;
+	text-shadow: -2px -2px 6px black;
+    width: 820px;
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+    clear:both;
+    text-align:center;
+    border-style: solid;
+    
+    
+}
+
+#container {
+	background-color: #2e2e2e;
+    border-style: solid;
+    border-color: #cccccc;
+	width: 820px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 800px;
+}
+
+#buttons {
+	background-color: #2e2e2e;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #cccccc;
+	width: 820px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#featuresStyle {
+	background-color: #232323;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #cccccc;
+	width: 820px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#canvasImage {
+	background-color: #fefefe;
+}
+
+#toolSelect {
+	background-color: #6e6e6e;
+	color: #ffffff;
+	height: 200px;
+	width: 150px;
+	overflow: auto;
+}
+#container{
+	height:350px;
+}
+#paintCanvas{
+	z-index: 1;
+	position:absolute;
+}
+body{
+	background-color: black;
+}
+#buttons{
+}
+#overLay{
+	z-index: 0;
+	position:absolute;
+	background-color:white;
+}
+#imgContainer{
+	text-align: center;
+}
+#features{
+	background-color: white;
+}
+#penFeatures,#paintbrushFeatures,#rectangleFeatures,#circleFeatures,#eraserFeatures{
+	text-align: center;
+	display:none;
+}
